@@ -1,0 +1,19 @@
+#include <stdio.h>int nCr(int n, int r); // Function declaration
+int main() {
+int n, r;
+printf("REG NO:25331A05F7\n");
+printf("Enter values of n and r (n > r): ");
+scanf("%d %d", &n, &r);
+if (n < r) {
+printf("Invalid input! n must be greater than r.\n");
+} else {
+printf("nCr(%d, %d) = %d\n", n, r, nCr(n, r));
+}
+return 0;
+}
+int nCr(int n, int r) {
+if (r == 0 || r == n)
+return 1;
+else
+return nCr(n - 1, r - 1) + nCr(n - 1, r);
+}
