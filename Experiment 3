@@ -1,7 +1,8 @@
-#include <stdio.h>int nCr(int n, int r); // Function declaration
+#include <stdio.h>
+int nCr(int n, int r); // Function declaration
 int main() {
 int n, r;
-printf("REG NO:25331A05F7\n");
+printf("REG NO:25331A05c7\n");
 printf("Enter values of n and r (n > r): ");
 scanf("%d %d", &n, &r);
 if (n < r) {
