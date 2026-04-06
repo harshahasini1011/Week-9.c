@@ -6,7 +6,7 @@ return fib(n-1) + fib(n-2);
 }
 int main() {
 int n, i;
-printf("REG NO:25331A05F7\n");
+printf("REG NO:25331A05c7\n");
 printf(“enter n:”);
 scanf("%d", &n);
 for(i = 0; i < n; i++)
